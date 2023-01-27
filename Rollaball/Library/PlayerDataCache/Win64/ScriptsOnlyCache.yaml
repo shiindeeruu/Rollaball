@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraController
+    - Pacer
     - PlayerController
     - Rotator
     Unity.InputSystem.dll:
@@ -20,8 +21,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -37,9 +36,11 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputBinding
     - UnityEngine.InputSystem.InputControlScheme
     - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    - UnityEngine.InputSystem.InputSettings/iOSSettings
     - UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceLostEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent
+    - UnityEngine.InputSystem.iOS.PrivacyDataUsage
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -102,35 +103,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 2244}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 2992}
     - Class: 114
-      Script: {instanceID: 3264}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 3460}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 3498}
+      Script: {instanceID: 3524}
     - Class: 114
-      Script: {instanceID: 4022}
+      Script: {instanceID: 4048}
     - Class: 114
-      Script: {instanceID: 4492}
+      Script: {instanceID: 4518}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 5620}
+      Script: {instanceID: 5646}
     - Class: 114
-      Script: {instanceID: 6284}
+      Script: {instanceID: 6310}
     - Class: 114
-      Script: {instanceID: 6454}
+      Script: {instanceID: 6480}
     - Class: 114
-      Script: {instanceID: 7264}
+      Script: {instanceID: 7290}
     - Class: 114
-      Script: {instanceID: 8052}
+      Script: {instanceID: 8078}
+    - Class: 114
+      Script: {instanceID: 8412}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1056,6 +1059,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pacer
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1117,4 +1126,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MiniGame.unity
-  playerPath: C:/Users/hshin9/Rollaball/Builds/My project.exe
+  playerPath: C:/Users/hshin9/Documents/GitHub/Rollaball/Rollaball/Builds/My project.exe
