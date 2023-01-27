@@ -24,4 +24,4 @@ public class Pacer : MonoBehaviour
         }
         transform.position = new Vector3(7.5f, 0.75f, zNew);
     }
-}s
+}
