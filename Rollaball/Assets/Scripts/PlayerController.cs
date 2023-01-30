@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
 
+    [SerializeField]
+    private AudioClip coinSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
         SetCountText();
         winTextObject.SetActive(false);
+        
     }
 
     void OnMove(InputValue movementValue)
@@ -53,9 +57,9 @@ public class PlayerController : MonoBehaviour
     {
         if(other.gameObject.CompareTag("PickUp"))
         {
-
             other.gameObject.SetActive(false);
             count++;
+            AudioSource.PlayClipAtPoint(coinSound, transform.position);
 
             SetCountText();
         }
