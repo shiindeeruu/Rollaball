@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44698095, g: 0.49687034, b: 0.57505065, a: 1}
+  m_IndirectSpecularColor: {r: 0.45133966, g: 0.50094634, b: 0.5729451, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -306,14 +306,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180493373}
-  m_LocalRotation: {x: 0.7099202, y: 0.45528224, z: -0.49280062, w: 0.21419355}
+  m_LocalRotation: {x: 0.7389758, y: 0.5480179, z: -0.3870544, w: 0.06148227}
   m_LocalPosition: {x: 0, y: 6.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 48.838, y: 230.062, z: 138.595}
+  m_LocalEulerAnglesHint: {x: 31.004, y: 216.07, z: 117.2}
 --- !u!1 &208829927
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +926,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e198417dcdc7afe4fba6d8827718dea4, type: 2}
+  - {fileID: 2100000, guid: 88bbf53d64567cc45a0b7cc7490afd9f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2453,7 +2453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e89014dad8e98634ba47c9ee670dae1e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.86
+      value: 8.34
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e89014dad8e98634ba47c9ee670dae1e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2461,7 +2461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e89014dad8e98634ba47c9ee670dae1e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.21
+      value: -8.76
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e89014dad8e98634ba47c9ee670dae1e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2790,7 +2790,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e198417dcdc7afe4fba6d8827718dea4, type: 2}
+  - {fileID: 2100000, guid: 52fc300bf305bec44941d2bf3178e265, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3230,7 +3230,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e198417dcdc7afe4fba6d8827718dea4, type: 2}
+  - {fileID: 2100000, guid: 5bc83c0bf32cc9341859938d0ca4db08, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
