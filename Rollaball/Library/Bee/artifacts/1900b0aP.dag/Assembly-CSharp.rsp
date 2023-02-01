@@ -105,8 +105,11 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
 -r:"C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -297,17 +300,27 @@
 -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
 -r:"C:/Users/hshin9/Documents/GitHub/Rollaball/Rollaball/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
 -r:"C:/Users/hshin9/Documents/GitHub/Rollaball/Rollaball/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/SteamVR.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/SteamVR_Actions.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.Environments.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Subsystem.Registration.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.XR.Management.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.XR.OpenVR.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Scripts/BallController.cs"
 "Assets/Scripts/CameraController.cs"
+"Assets/Scripts/CoinSFX.cs"
 "Assets/Scripts/Pacer.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Rotator.cs"
