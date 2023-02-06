@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if(count >= 14)
+        if(count >= 20)
         {
             winTextObject.SetActive(true);
         }
@@ -57,6 +57,13 @@ public class PlayerController : MonoBehaviour
             count++;
 
             SetCountText();
+        }
+        if (other.gameObject.CompareTag("BackWall"))
+        {
+            transform.position = new Vector3(-5.63f, 0.5f, 0.54f);
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+
         }
     }
 }
